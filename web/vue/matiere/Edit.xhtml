@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="MatiereEditDlg" widgetVar="MatiereEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditMatiereTitle}">
+            <h:form id="MatiereEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{matiereController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditMatiereLabel_nummatiere}" for="nummatiere" />
+                        <p:inputText id="nummatiere" value="#{matiereController.selected.nummatiere}" title="#{bundle.EditMatiereTitle_nummatiere}" disabled="true" />
+                        <p:outputLabel value="#{bundle.EditMatiereLabel_design}" for="design" />
+                        <p:inputText id="design" value="#{matiereController.selected.design}" title="#{bundle.EditMatiereTitle_design}" required="true" requiredMessage="#{bundle.CreateMatiereRequiredMessage_designmatiere}" />
+                        <p:outputLabel value="#{bundle.EditMatiereLabel_coef}" for="coef" />
+                        <p:inputText id="coef" value="#{matiereController.selected.coef}" title="#{bundle.EditMatiereTitle_coef}" required="true" requiredMessage="#{bundle.CreateMatiereRequiredMessage_coefmatiere}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{matiereController.update}" value="#{bundle.Save}" update="display,:MatiereListForm:datalist,:growl" oncomplete="handleSubmit(args, 'MatiereEditDialog');" icon="ui-icon-check" />
+                    <p:commandButton type="button" value="#{bundle.Cancel}"  onclick="PF('MatiereEditDialog').hide()" icon="ui-icon-close" />
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/session/EtudiantFacade.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/welcomePrimefaces.xhtml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/nbproject/project.xml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jsf/MatiereController.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jsf/NoteController.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/session/MatiereFacade.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/session/AbstractFacade.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/session/NoteFacade.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/entities/NotePK.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/entities/Etudiant.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/nbproject/project.properties</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jsf/EtudiantController.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/WEB-INF/faces-config.xml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/docker-compose.yml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/entities/Note.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/index.xhtml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/META-INF/context.xml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/nbproject/build-impl.xml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/vue/etudiant/View.xhtml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/vue/etudiant/Edit.xhtml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/build.xml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/src/java/jpa/entities/Matiere.java</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/vue/etudiant/List.xhtml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/vue/etudiant/Create.xhtml</file>
+            <file>file:/mnt/egm/Workspaces/Sandbox/M2-PROJECT/M2-Trigger-Jsf/web/WEB-INF/web.xml</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,12 @@
+version: "3"
+services:  
+  glassfish41:
+    build:
+      context: glassfish
+      dockerfile: Dockerfile
+    network_mode: host
+    volumes:
+      - ./dist/:/usr/local/glassfish4/glassfish/domains/domain1/autodeploy/
+    ports:
+      - "8080:8080"
+      - "4848:4848"

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/facelets"
+      url="http://localhost:8080/M2-Trigger-Jsf/">
+    
+    <h:head>
+        <title>Projet Trigger</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
+    </h:head>
+    <h:body>
+        <div class="parent" style="text-align: center;">
+            <div class="fils" style="text-align: center;">
+                <div style="text-align: center;">
+                    <h1>Trigger Project</h1>
+                    <h1>M2 GB</h1>
+                    2015-2016<br/>
+                </div>
+                <br />
+                <div style="text-align: center;">
+                    <p:button outcome="/vue/etudiant/List.xhtml" value="Etudiants" icon="ui-icon-star">
+                    </p:button>
+                    <br />
+                    <p:button outcome="/vue/matiere/List.xhtml" value="Matieres" icon="ui-icon-star">
+                    </p:button>
+                    <br />
+                    <p:button outcome="/vue/note/List.xhtml" value="Notes" icon="ui-icon-star">
+                    </p:button>
+                </div>
+            </div>
+        </div>
+    </h:body>
+</html>
+
